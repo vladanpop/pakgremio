@@ -3,3 +3,26 @@
     height: 100vh;
     background: rebeccapurple
 }
+
+.cover-img {
+    object-fit: cover;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Images - begin */
+.cover-img-sample-1 {
+    background-image: url("../images/sample_1.jpg");
+}
+
+.cover-img-sample-2 {
+    background-image: url("../images/sample_2.jpg");
+}
+
+.cover-img-sample-3 {
+    background-image: url("../images/sample_3.jpg");
+}
+
+/* Images - end */
