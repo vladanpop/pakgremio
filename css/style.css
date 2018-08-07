@@ -42,6 +42,7 @@
 .news-img img {
     width: 100%;
     opacity: 0.5;
+    transition: 0.7s;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
