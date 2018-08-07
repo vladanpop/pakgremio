@@ -30,3 +30,45 @@
 {
     background: #BDEEFF
 }
+
+/*News section - begin*/
+
+.news-img img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-img img {
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.news-container {
+    margin: 15px 0 15px 0;
+    position: relative;
+    text-align: center;
+}
+
+.clear-padding {
+    padding: 0 !important;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*News section - end*/
