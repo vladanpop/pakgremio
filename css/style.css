@@ -1,8 +1,3 @@
-#sladja
-{
-    height: 100vh;
-    background: rebeccapurple
-}
 
 .cover-img {
     object-fit: cover;
@@ -26,3 +21,8 @@
 }
 
 /* Images - end */
+
+.bg-onama
+{
+    background: #BDEEFF
+}
