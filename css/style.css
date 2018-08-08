@@ -46,13 +46,8 @@
 }
 
 .news-container {
-    margin: 15px 0 15px 0;
     position: relative;
     text-align: center;
-}
-
-.clear-padding {
-    padding: 0 !important;
 }
 
 .centered {
@@ -69,6 +64,11 @@
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /*News section - end*/
