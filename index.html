@@ -38,19 +38,18 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="cover-img cover-img-sample-2"></div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Sample 2</h2>
-                            <p>Laborum sunt dolore labore aute esse ullamco exercitation ad mollit officia id cupidatat velit.</p>
-                        </div>
+                <div class="carousel-item">
+                    <div class="cover-img cover-img-sample-2"></div>
+                    <div class="carousel-caption d-sm-block move-up">
+                        <h2>Sample 2</h2>
+                        <p>Laborum sunt dolore labore aute esse ullamco exercitation ad mollit officia id cupidatat velit.</p>
                     </div>
-                    <div class="carousel-item">
-                        <div class="cover-img cover-img-sample-3"></div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Sample 3</h2>
-                            <p>Laborum sunt dolore labore aute esse ullamco exercitation ad mollit officia id cupidatat velit.</p>
-                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cover-img cover-img-sample-3"></div>
+                    <div class="carousel-caption d-sm-block move-up">
+                        <h2>Sample 3</h2>
+                        <p>Laborum sunt dolore labore aute esse ullamco exercitation ad mollit officia id cupidatat velit.</p>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,7 +97,6 @@
     </section>
 
     <!-- o nama -->
-
     <div class="container">
         <div class="row">
             <div class="col-lg-3 bg-onama">
@@ -252,7 +250,201 @@
 
 
     <!-- novosti -->
-    <section>
+    <section class="container no-padding mt-4">
+        <h3>Najave</h3>
+        <div class="row news-container">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_1.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Borja</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#borja-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_2.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Jahorina</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#jahorina-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_3.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Kozara</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#kozara-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_1.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Crvalj</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#crvalj-modal">Vise</button>
+            </div>
+        </div>
+        <h3>Arhiva</h3>
+        <div class="row news-container">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_1.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Borja</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#borja-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_2.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Jahorina</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#jahorina-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_3.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Kozara</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#kozara-modal">Vise</button>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12 news-img pb-3">
+                <img src="images/sample_1.jpg" alt="Smiley face" class="img-fluid">
+                <h3 class="centered">Crvalj</h3>
+                <button type="button" class="btn btn-primary bottom-center news-button w-50" data-toggle="modal" data-target="#crvalj-modal">Vise</button>
+            </div>
+        </div>
+
+
+        <!-- Button trigger modal -->
+
+        <!-- Borja Modal - begin -->
+        <div class="modal fade" id="borja-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Borja</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Planina Borje smještena je u sjeverozapadnom dijelu Bosne i Hercegovine između Velike i Male Usore.
+                            Planina je uglavnom izgrađena od magmatskih stijena (ultramafiti i gabroperidotiti), a dobila
+                            je ime po borovoj šumi koja se prostire na nepreglednim prostranstvima, a sam kraj je od davnina
+                            poznat kao vazdušna banja. Najviši vrh planine Borja je Velika Runjevica koji se nalazi na 1077
+                            m, a njene padine obiluju crnogorično-listopadnom šumom.</p>
+                        <p>Planina Borja je idealno mjesto za ljubitelje bilja i šumskih plodova, koji će zasigurno uživati
+                            u ovim predjelima. Poslije snijega, u proljeće, će vas dočekati lale koje je moguće pronaći od
+                            Solila, pa sve do male Runjavice. Nakon lala stižu šumske jagode, maline, borovnice i kupine.
+                            U jesen je moguće brati vrganje, poznate i kao “kraljeve gljiva”. Mogu se pronaći veoma kvalitetni
+                            primjerci ove biljke izrazitog ukusa za koju se smatra da je jedna od najkvalitetnihih gljiva.
+                            Kada je riječ o ljekovitim biljkama, izdvajamo travu ivu koje ima u izobilju na planini Borja,
+                            a o ljekovitosti ove biljke najbolje govori narodna izreka:“Trava iva od bolna pravi živa“.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Borja Modal - end -->
+
+        <!-- Jahorina Modal - begin -->
+        <div class="modal fade" id="jahorina-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Jahorina</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Jahorina Jahorina je planina u Bosni i Hercegovini koja pripada Dinarskom planinskom sustavu. Najviši vrh je Ogorjelica sa
+                            1.916 m nadmorske visine. Ljeti je prekrivena gustom zelenom travom, a zimi i do 3 m visokim
+                            snijegom. Jahorina se prostire od 43°39' do 43°47' sjeverne zemljopisne širine i od 18°31' do
+                            18°43 istočne zemljopisne dužine.
+                        </p>
+                        <p>
+                            Izvanredna konfiguracija terena, obilje vrlo kvalitetnog snijega, pogodna klima, 20 kilometara staza za alpske discipline
+                            kao i blage padine (Rajska dolina) uvrstile su ovu planinu među najljepše i najpoznatije ski-centre.
+                            Prosječan broj dana sa sniježnim pokrivačem na Jahorini je 175, i to od listopada do kraja svibnja.
+                            Desetogodišnji prosjek visine sniježnog pokrivača u veljači iznosi 106 cm.
+                        </p>
+                        <p>Na četrnaestim Zimpskim olimpijskim igrama u Sarajevu, na Jahorini su održane alpske discipline za
+                            žene.
+                        </p>
+                        <p>Jahorina je od Sarajeva udaljena 30 km, a od Pala 15 km.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jahorina Modal - end -->
+
+
+        <!-- Kozara Modal - begin -->
+        <div class="modal fade" id="kozara-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Kozara</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Kozara je planina u sjeverozapadnom dijelu Bosne i Hercegovine. Najviši vrh je Lisina (978 m).
+                        </p>
+
+                        <p>
+                            Kozara je planina dinamičnog reljefa čiji vrhovi ne prelaze 1 000 metara nadmorske visine. Umjereno-kontinentalna klima,
+                            velik broj sunčanih dana i pitomi planinski vrhovi - vidikovci sa kojih se vide Bosanska Gradiška,
+                            Prijedor, Bosanska Dubica i okolica - daju posebnu vrijednost ovoj planini. Tu se nalaze izvori
+                            većih potoka i rijeka, tj. Mlječanice, Moštanice, Kozaračke rijeke - Starenice itd.
+                        </p>
+
+                        <p>
+                            Planina je najpoznatija po stradanju civila u Drugom svjetskom ratu, kada su snage Njemačkog Wehrmachta opkolile partizane
+                            na Kozari s namjerom da ih unište. U napadu na Kozaru sudjelovalo je 15.000 njemačkih vojnika,
+                            22.000 ustaša i domobrana te 2.000 četnika. Velik broj civila je odveden u Koncentracijski logor
+                            Jasenovac, a dio je ubijen na mjestu.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jahorina Modal - end -->
+
+        <!-- Crvalj Modal - begin -->
+        <div class="modal fade" id="crvalj-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Crvalj</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <P>
+
+                            Crvanj je planina u sjeveroistočnoj Hercegovini. Na sjeveru je omeđena Neretvom, sa juga i jugozapada Nevesinjskim poljem,
+                            a sa istoka prostranom visoravni Morine.
+                        </P>
+
+                        <P>
+                            Građena je pretežno od trijaskih i jurskih krečnjaka sa razvijenim krškim oblicima. Najviši vrhovi su Zimomor 1.920 m, Previja
+                            1.856 m, Veliki Gradac 1.850 m i Ledenica 1.827 m. Slabo razvijenu rječnu mrežu čine Živanjski
+                            potok (pritoka Neretve) i otoka Uloškog jezera - potok Jezernica, koji se također ulijeva u Neretvu.
+
+                        </P>
+
+                        <P>
+                            Sjeverni i sjeveroistočni dio planine je šumovit (hrast, bor), a ostalo je pod pašnjacima. Na planini se uglavnom nalaze
+                            privremena pastirska naselja.
+                        </P>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Crvalj Modal - end -->
+
+
 
     </section>
 
@@ -265,7 +457,6 @@
     <section>
 
     </section>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

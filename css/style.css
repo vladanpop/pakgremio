@@ -30,6 +30,10 @@
     background-image: url("../images/sample_3.jpg");
 }
 
+.move-up {
+    bottom: 30% !important;
+}
+
 /* Images - end */
 
 
