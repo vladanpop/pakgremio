@@ -1,3 +1,13 @@
+.gremio-main{
+    position: relative
+}
+
+.gremio-nav{
+    position: absolute;
+    top: 0;
+    left:5%
+
+}
 
 .cover-img {
     object-fit: cover;
@@ -53,8 +63,6 @@
 #prijatelji{
     background: #e2e2e2
 }
-
-
 
 .img-friends-align{
     height: 100%;
