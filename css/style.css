@@ -22,7 +22,53 @@
 
 /* Images - end */
 
+
+/* about us  */
 .bg-onama
 {
     background: #BDEEFF
 }
+
+.ab-us-1 {
+
+}
+
+.ab-us-2{
+
+}
+
+.ab-us-3{
+
+}
+
+.ab-us-4{
+
+}
+
+/* about us - end */
+
+
+/* prijatelji */
+
+#prijatelji{
+    background: #e2e2e2
+}
+
+
+
+.img-friends-align{
+    height: 100%;
+    display: flex;
+    align-items: center; 
+}
+.img-prijatelji{
+    max-width: 100%;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+
+}
+.img-prijatelji:hover{
+    -webkit-filter: grayscale(0%)!important;
+    filter: grayscale(0%)!important;
+}
+/* prijatelji - end */
