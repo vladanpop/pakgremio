@@ -5,8 +5,19 @@
 .gremio-nav{
     position: absolute;
     top: 0;
-    left:5%
+    left:10%
 
+}
+
+.btn-gremio{
+    background:  black;
+    color: white!important;
+    font-size: 14px;
+}
+
+.img-logo{
+    width: 100px;
+    height: 44px;
 }
 
 .cover-img {
@@ -22,7 +33,7 @@
     background-image: url("../images/sample_1.jpg");
 }
 
-.cover-img-sample-2 {
+.cover-img-sample-2 {  
     background-image: url("../images/sample_2.jpg");
 }
 
@@ -36,7 +47,8 @@
 /* about us  */
 .bg-onama
 {
-    background: #BDEEFF
+    background: black;
+    color: white;
 }
 
 .ab-us-1 {
@@ -61,7 +73,8 @@
 /* prijatelji */
 
 #prijatelji{
-    background: #e2e2e2
+    background: black;
+    opacity: 0.7;
 }
 
 .img-friends-align{
@@ -80,3 +93,20 @@
     filter: grayscale(0%)!important;
 }
 /* prijatelji - end */
+
+#footer {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: 
+    linear-gradient(
+        rgba(240, 212, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+    ),
+  }
+
+  .pozadina{
+    background: 
+    url('../images/footerimg.jpeg');
+  }
+  
