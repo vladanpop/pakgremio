@@ -127,3 +127,38 @@
 }
 
 /*News section - end*/
+
+/* Social network - begin */
+
+.social-network-container-left {
+    width: 50%;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-network-container-right {
+    width: 50%;
+}
+
+.social-network-container .row {
+    position: relative;
+}
+
+.social-text {
+    position: absolute;
+    top: 38%;
+    transform: translate(0%,-50%);
+    margin-left: 20px;
+}
+
+.social-link {
+    color: black !important;
+}
+
+.social-link:hover {
+    color: gray !important;
+}
+
+/* Social network - end */
