@@ -109,6 +109,14 @@
     transform: scale(1.05); 
 }
 
+.news-img img:hover + .centered {
+    transform: scale(1.05);
+}
+
+.centered {
+    transition: 0.5s;
+}
+
 .news-img img {
     transition: 0.5s;
     object-fit: cover;
@@ -124,10 +132,8 @@
 .centered {
     position: absolute;
     top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
     color: white;
-    text-shadow: 2px 2px 5px black;
 }
 
 .bottom-center {
