@@ -109,13 +109,11 @@
     transform: scale(1.05); 
 }
 
-.news-img img:hover + .centered {
+.news-img img:hover  {
     transform: scale(1.05);
 }
 
-.centered {
-    transition: 0.5s;
-}
+
 
 .news-img img {
     transition: 0.5s;
@@ -132,8 +130,10 @@
 .centered {
     position: absolute;
     top: 30%;
-    
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 .bottom-center {
